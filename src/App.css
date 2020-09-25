@@ -1,0 +1,17 @@
+* {
+box-sizing: border-box 
+
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+          width: 100%;
+          background-color: teal;
+      }
+
+    .title {
+        font-size: 15px;
+        display: flex;
+        width:100%;
+    }
+    }

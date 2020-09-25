@@ -1,6 +1,8 @@
 import React, { useCallback, useRef, useState } from "react";
 import produce from "immer";
 
+import './App.css';
+
 const numRows = 50;
 const numCols = 50;
 
@@ -111,10 +113,11 @@ const App: React.FC = () => {
               style={{
                 color: "white",
                 margin: "0",
-                display:"flex"
+                display:"flex",
+                textShadow: "2px 2px salmon"
               }}
             >
-              John Conway's - The Game of Life
+              The Game of Life
             </h1>
           </div>
           <div
